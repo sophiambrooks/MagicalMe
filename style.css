@@ -1,0 +1,127 @@
+body {
+	 background-color: lightblue;
+  font-family: Futura;
+	 margin: 1rem auto;
+	 max-width: 100rem;
+}
+ h1 {
+	 text-align: center;
+	 margin-bottom: 1rem;
+   font-size: 8rem;
+   font-family: Futura;
+   font-weight: 100;
+}
+ section {
+	 display: flex;
+	 margin-bottom: 1rem;
+   flex-direction: column;
+   padding: 1rem;
+}
+ @media screen and (min-width: 35rem) {
+	 section {
+		 flex-direction: row;
+	}
+}
+ section > * {
+	 flex: 1;
+}
+ article {
+	 padding: 1rem;
+}
+ article p {
+	 font-family: Futura;
+	 font-size: 1.1rem;
+	 line-height: 1.8;
+}
+ @media screen and (min-width: 35rem) {
+	 article p {
+		 margin: 0;
+	}
+}
+ @media screen and (min-width: 35rem) {
+	 article p:not(:last-of-type) {
+		 /*min-height: 90vh;*/
+	}
+}
+ figure {
+   padding: 1rem;
+  margin: 1rem;
+	 align-items: center;
+	 align-self: flex-start;
+	 display: flex;
+
+	 justify-content: center;
+	 top: 3rem;
+}
+ @media screen and (min-width: 35rem) {
+	 figure {
+		 position: sticky;
+	}
+}
+ h2 {
+	 text-align: center;
+	 margin-bottom: 1rem;
+   font-size: 2rem;
+   font-family: Futura;
+   font-weight: 100;
+}
+h2{
+  color:white;
+  font-family: 'Satisfy', cursive;
+  text-align: center;
+  font-size: 2rem;
+  background-image: linear-gradient(90deg, rgba(0,0,0,0), rgba(0,0,0,1));
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+	animation: gradient 10s ease infinite;
+}
+/*Custom Cursor Images https://codepen.io/fmressel/pen/djwvJVLinks to an external site.  Search for Unicode using https://emojipedia.org/Links to an external site.  and replace characters before .png*/
+
+/*Rainbow*/
+.tree{
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f334.png) 36 36, auto;
+}
+
+.camera {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f4f7.png) 36 36, auto;
+}
+
+.trophy {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f3c6.png) 36 36, auto;
+}
+
+section{
+  display: flex;
+}
+
+.tooltiptext {
+  visibility:hidden;
+}
+
+.accomplishment:hover .tooltiptext{
+  visibility:visible;
+  
+}
+.tooltiptext {
+  visibility:hidden;
+}
+
+.papparazzi:hover .tooltiptext{
+  visibility:visible;
+}
+
+}
+.tooltiptext {
+  visibility:hidden;
+}
+
+.journey:hover .tooltiptext{
+  visibility:visible;
+}
+
+figure {
+  display: flex;
+  align-self: flex-start;
+  position: sticky;
+  top: 3em;
+}
