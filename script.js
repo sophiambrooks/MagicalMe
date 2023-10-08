@@ -1,4 +1,4 @@
-function insertAnswer(){
+function countryAnswer(){
   var password=document.getElementById("insertAnswer");
   var passwordText=password.value.toUpperCase();
   if (passwordText=="ITALY"){
